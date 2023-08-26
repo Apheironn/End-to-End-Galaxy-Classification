@@ -1,12 +1,6 @@
-import os
-import urllib.request as request
-from zipfile import ZipFile
 import tensorflow as tf
 from pathlib import Path
 from cnnClassifier.entity.config_entity import PrepareCustomCNNConfig
-
-import tensorflow as tf
-from pathlib import Path
 
 class PrepareCustomCNN:
     def __init__(self, config: PrepareCustomCNNConfig):
