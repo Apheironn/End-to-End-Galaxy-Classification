@@ -6,3 +6,9 @@ data_ingestion:
   source_URL: https://drive.usercontent.google.com/download?id=18SUmFU4hFcoNVNFP7rRzQAyFdpD0S9my&export=download&authuser=0&confirm=t&uuid=f7321258-d9ab-4fd7-b51c-4ce85deaff51&at=APZUnTU7FHJAyQhzMDd8hU-yOdIL:1693079286603
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+prepare_custom_cnn:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5
+  updated_base_model_path: artifacts/prepare_base_model/base_model_updated.h5
