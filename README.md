@@ -5,7 +5,7 @@
 - [Model Preparation](#model-preparation)
 - [User Interface Development](#user-interface-development)
 - [Model Deployment and Automation](#model-deployment-and-automation)
-
+- [How to run?](#steps)
 ---
 
 ## Model Preparation
@@ -75,6 +75,54 @@
    - Tasks: Define the workflow YAML, specify build and deployment steps.
 
 ---
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/Apheironn//End-to-End-Galaxy-Classification
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.10 -y
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+# Open up you local host and port
+localhost:8080
+```
+
+First go to,
+```bash
+# You have to train your data first on:
+localhost:8080/train
+```
+
+Finally,
+```bash
+# Go back to main address and enter values to estimate the price of the vehicle:
+localhost:8080/
+```
 
 ## License
 
