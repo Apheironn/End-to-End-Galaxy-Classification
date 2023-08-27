@@ -188,6 +188,36 @@ Finally,
 # Go back to main address and enter values to estimate the price of the vehicle:
 localhost:8080/
 ```
+---
+
+## Note for GPU Usage and Configuration
+
+- **GPU Usage and TensorFlow Compatibility:** If you want use your GPU for machine learning on Windows with Tensorflow, it's important to note that TensorFlow has partially stopped support for running on video cards in Windows after version 2.10. You can find more information about this in the [official TensorFlow documentation](https://www.tensorflow.org/install/pip). To use the latest supported version, follow these steps:
+
+  1. Create a Conda environment with Python 3.10:
+      ```
+      conda create --name tensorflowgpu python=3.10
+      ```
+
+  2. Activate the Conda environment:
+      ```
+      conda activate tensorflowgpu
+      ```
+
+  3. Install CUDA Toolkit and cuDNN via Conda:
+      ```
+      conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+      ```
+
+  4. Install TensorFlow version 2.10:
+      ```
+      pip install tensorflow==2.10
+      ```
+
+- **Customizing Training Parameters:** In the `params.yaml` file, you can enter your own values to train your model. The project uses the model from the file named `best_model.h5`, assuming the training process has been previously completed. If you want to use a different model, you can modify the configuration in the `config.yaml` file.
+
+---
+
 
 ## License
 
