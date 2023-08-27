@@ -214,9 +214,10 @@ localhost:8080/
       ```
       pip install tensorflow==2.10
       ```
+      
 
 - **Customizing Training Parameters:** In the `params.yaml` file, you can enter your own values to train your model. The project uses the model from the file named `best_model.h5`, assuming the training process has been previously completed. If you want to use a different model, you can modify the configuration in the `config.yaml` file.
-
+- You can download the data from [here](https://drive.usercontent.google.com/download?id=18SUmFU4hFcoNVNFP7rRzQAyFdpD0S9my&export=download&authuser=0&confirm=t&uuid=f7321258-d9ab-4fd7-b51c-4ce85deaff51&at=APZUnTU7FHJAyQhzMDd8hU-yOdIL:1693079286603).
 ---
 
 
