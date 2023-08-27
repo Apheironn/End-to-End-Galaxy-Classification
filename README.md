@@ -3,12 +3,75 @@
 ![HomepageUI](./flowcharts/Pipeline.png)
 
 ## Table of Contents
-
+- [Project Introduction](#project-introduction)
 - [Model Preparation](#model-preparation)
 - [User Interface Development](#user-interface-development)
 - [Model Deployment and Automation](#model-deployment-and-automation)
 - [How to run?](#steps)
 ---
+# Project Introduction
+
+This project focuses on using deep learning techniques to classify different types of galaxies based on their images. The goal is to develop a machine learning model that can accurately distinguish between various galaxy shapes and configurations.
+
+## Project Overview
+
+Galaxy classification is a critical task in astronomy that helps scientists understand the nature and evolution of galaxies. This project leverages deep learning algorithms to automate this classification process, enabling faster and more efficient analysis of large datasets of galaxy images.
+
+## Galaxy Types
+
+The dataset used in this project contains images of different galaxy types, each belonging to one of the following categories:
+
+### Cigar-shaped Smooth
+
+Galaxies in this category have a smooth appearance with a cigar-like shape. They lack prominent features like spiral arms or irregular structures.
+
+![Cigar-shaped Smooth](samples/Cigar-shaped-smooth.jpg)
+
+### Completely Round Smooth
+
+These galaxies have a smooth and completely round appearance without any distinct asymmetry or features.
+
+![Completely Round Smooth](samples/completely-round-smooth.jpg)
+
+### Edge-On
+
+Edge-on galaxies are characterized by their orientation, where their disk-like structure is viewed nearly edge-on from our perspective.
+
+![Edge-On](samples/edge-on.jpg)
+
+### In Between Smooth
+
+Galaxies that fall into this category exhibit a smooth appearance but with some irregularities or features that make them distinct from completely smooth galaxies.
+
+![In Between Smooth](samples/In-between-smooth.jpg)
+
+### Spiral
+
+Spiral galaxies showcase prominent spiral arms that often contain star-forming regions. These galaxies have a well-defined structure.
+
+![Spiral](samples/spiral.jpg)
+
+## Data Preparation
+
+The dataset is organized with labeled images representing each galaxy type. The images undergo preprocessing, including resizing, normalization, and augmentation, to ensure optimal training conditions for the deep learning model.
+
+## Model Architecture
+
+The deep learning model employed in this project is designed to learn features from the galaxy images and make accurate predictions about their types. Convolutional Neural Networks (CNNs) are commonly used for image classification tasks due to their ability to capture spatial patterns and hierarchies of features.
+
+## Usage
+
+To use this project, follow these steps:
+
+1. **Data Preparation:** Organize your galaxy image dataset into categories.
+2. **Model Training:** Train the deep learning model using the prepared dataset.
+3. **Evaluation:** Evaluate the model's performance on a separate validation set.
+4. **Prediction:** Utilize the trained model to classify new galaxy images.
+
+Feel free to explore the provided code and adapt it to your own galaxy image classification tasks.
+
+---
+
 
 ## Model Preparation
 
