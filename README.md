@@ -1,5 +1,7 @@
 # End-to-End-Galaxy-Classification
 
+![HomepageUI](./flowcharts/Pipeline.png)
+
 ## Table of Contents
 
 - [Model Preparation](#model-preparation)
