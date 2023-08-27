@@ -8,6 +8,7 @@
 - [User Interface Development](#user-interface-development)
 - [Model Deployment and Automation](#model-deployment-and-automation)
 - [How to run?](#steps)
+- [Important Notes](#note-for-gpu-usage-and-configuration)
 ---
 # Project Introduction
 
